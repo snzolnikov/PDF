@@ -14,5 +14,5 @@ with open(pdf_document, "rb") as filehandle:
    print(pdf.getFields())
    print(pdf.stream)
    print(pdf.flattenedPages)
-   #print(page1)
-   #print(page1.extractText())
+   print(page1)
+   print(page1.extractText())
